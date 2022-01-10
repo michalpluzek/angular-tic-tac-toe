@@ -1,20 +1,10 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-square',
-  template: `
-    <p>
-      square works!
-    </p>
-  `,
-  styles: [
-  ]
+  template: ` <button>{{ value }}</button> `,
+  styles: ['button { width: 100%; height: 100%; font-size: 5em !important; }'],
 })
-export class SquareComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+export class SquareComponent {
+  @Input() value: string = '';
 }
