@@ -1,7 +1,7 @@
 # AngularTicTacToe
 
-This project is from 
-Fireship https://www.youtube.com/watch?v=G0bBLvWXBvc&t=185s&ab_channel=Fireship
+Design taken from YT + my modifications
+https://www.youtube.com/watch?v=G0bBLvWXBvc&t=185s&ab_channel=Fireship
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.9.
 
